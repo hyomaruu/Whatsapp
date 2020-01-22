@@ -7,6 +7,7 @@ import { Ionicons } from '@expo/vector-icons';
 
 import Chat from './tabs/Chat'
 import Status from './tabs/Status'
+import Call from './tabs/Call'
 
 import TabCamera from './tabs/TabCamera';
 
@@ -33,7 +34,7 @@ export default class App extends React.Component {
     }
     return (
       <Container>
-        <Header style={{ backgroundColor: "#075E54" }}>
+        <Header style={{ backgroundColor: "#075E54" }} androidStatusBarColor="#075E54">
 
           <Body>
             <Title style={{ fontSize: 20, fontWeight: "bold", marginLeft: 2 }}>WhatsApp</Title>
@@ -58,7 +59,7 @@ export default class App extends React.Component {
             <Status/>
           </Tab>
           <Tab heading={<TabHeading style={{ backgroundColor: "#075E54" }}><Text style={{ color: "white" }}>CALL</Text></TabHeading>}>
-
+            <Call/>
           </Tab>
         </Tabs>
       </Container>

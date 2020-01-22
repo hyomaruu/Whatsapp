@@ -1,6 +1,7 @@
 import React, { useState, useEffect, Component } from 'react';
 import { Container, List, ListItem, View, Thumbnail, Fab, Icon, Text, Left, Body, Right, } from 'native-base';
 import { TouchableOpacity } from 'react-native'; 
+import { Ionicons } from '@expo/vector-icons';
 
 
 export default class chat extends Component {
@@ -10,47 +11,47 @@ export default class chat extends Component {
                 <List>
                     <ListItem avatar>
                         <Left>
-                            <Thumbnail source={{ uri: 'http://smkn10jakarta.sch.id/wp-content/uploads/2018/10/DSC_0158-1.jpg' }} />
+                            <Thumbnail source={{ uri: 'https://i.pinimg.com/originals/23/79/62/237962a8d23a2e7162cf86ddae95acaa.jpg' }} />
                         </Left>
                         <Body>
-                            <Text>Eriati Anavia, S.Pd</Text>
-                            <Text note>Tolong Mtk Di kumpulin ............... . .</Text>
+                            <Text>Babang Tamvan</Text>
+                            <Text note>Login Brooooooo, lagi pada ngumpul ini</Text>
                         </Body>
                         <Right>
-                            <Text note>3:43 pm</Text>
+                            <Text note>1:59 pm</Text>
                         </Right>
                     </ListItem>
                     <ListItem avatar>
                         <Left>
-                            <Thumbnail source={{ uri: 'http://smkn10jakarta.sch.id/wp-content/uploads/2018/10/DSC_0217.jpg' }} />
+                            <Thumbnail source={{ uri: 'https://cdn.awwni.me/1m6lx.png' }} />
                         </Left>
                         <Body>
-                            <Text>Chandra Mafia, S.Pd</Text>
-                            <Text note>Besok Ulangan Listening Harap Hadir . .</Text>
+                            <Text>Bebep</Text>
+                            <Text note>piring udh di cuci???, kalo udah sekalian di pel</Text>
                         </Body>
                         <Right>
-                            <Text note>10:43 am</Text>
+                            <Text note>12:12 am</Text>
                         </Right>
                     </ListItem>
                     <ListItem avatar>
                         <Left>
-                            <Thumbnail source={{ uri: 'http://smkn10jakarta.sch.id/wp-content/uploads/2018/10/Pak-Sudewo-Pranowo.jpg' }} />
+                            <Thumbnail source={{ uri: 'https://i.pinimg.com/originals/1c/72/3d/1c723d7fb43fdb2e10044215eba8140a.jpg' }} />
                         </Left>
                         <Body>
-                            <Text>Sudewo Pranowo, M.Pd </Text>
-                            <Text note>DHarap Tugas PKN besok di kumpulin !!!!!!</Text>
+                            <Text>Dobleh</Text>
+                            <Text note>Skuy lah nongkrong, lagi gabut gw cuk</Text>
                         </Body>
                         <Right>
-                            <Text note>08:43 pm</Text>
+                            <Text note>08:09 pm</Text>
                         </Right>
                     </ListItem>
                     <ListItem avatar>
                         <Left>
-                            <Thumbnail source={{ uri: 'http://smkn10jakarta.sch.id/wp-content/uploads/2018/10/RUSTAM.jpg' }} />
+                            <Thumbnail source={{ uri: 'https://i.redd.it/o8oig5236h341.jpg' }} />
                         </Left>
                         <Body>
-                            <Text>RUSTAM</Text>
-                            <Text note>PROYEKTOR DI KEMBALIKAN JANGAN DI BAWA PULANG</Text>
+                            <Text>Burhan</Text>
+                            <Text note>Cuk liat pr dong gk ngerti gw, prnya apa aja ya????</Text>
                         </Body>
                         <Right>
                             <Text note>03:43 pm</Text>
@@ -58,14 +59,14 @@ export default class chat extends Component {
                     </ListItem>
                     <ListItem avatar>
                         <Left>
-                            <Thumbnail source={{ uri: 'https://raw.githubusercontent.com/arm02/cpsapp/master/public/uploads/webcam_5c406c65d5f6d.png' }} />
+                            <Thumbnail source={{ uri: 'https://i.pinimg.com/236x/fa/d7/99/fad79911841d02dad174b67b09081633.jpg' }} />
                         </Left>
                         <Body>
-                            <Text>BANG UNDER</Text>
-                            <Text note>Lorem Ipsum dolor shit amte meta tmasdmac .cx.,c.a </Text>
+                            <Text>Tukang Cupang</Text>
+                            <Text note>Kok lu gk beli cupang lagi???, stoknya lagi banyak nih</Text>
                         </Body>
                         <Right>
-                            <Text note>03:43 pm</Text>
+                            <Text note>06:12 pm</Text>
                         </Right>
                     </ListItem>
                 </List>
@@ -73,7 +74,7 @@ export default class chat extends Component {
                     <Fab
                         style={{ backgroundColor: '#51e302' }}
                         position="bottomRight">
-                        <Icon name="text" />
+                        <Icon name="chatboxes" />
                     </Fab>
                 </View>
             </Container>
