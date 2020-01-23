@@ -1,6 +1,4 @@
-import React, { useState, useEffect, Component } from 'react';
-import { TouchableOpacity, StatusBar } from 'react-native';
-import { AppLoading } from 'expo';
+import React, {Component } from 'react';
 import { Container, Icon, Text, Body, Button, List, ListItem, Left, Thumbnail, View, Fab, Badge } from 'native-base';
 
 

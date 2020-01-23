@@ -1,7 +1,5 @@
-import React, { useState, useEffect, Component } from 'react';
+import React, {Component } from 'react';
 import { Container, List, ListItem, View, Thumbnail, Fab, Icon, Text, Left, Body, Right, } from 'native-base';
-import { TouchableOpacity } from 'react-native'; 
-import { Ionicons } from '@expo/vector-icons';
 
 
 export default class chat extends Component {

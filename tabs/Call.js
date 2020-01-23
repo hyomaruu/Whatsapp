@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Container, List, ListItem, View, Thumbnail, Fab, Icon, Text, Left, Body, Right, Button} from 'native-base';
 
-import { Ionicons } from '@expo/vector-icons';
-
 
 
 export default class Call extends Component {

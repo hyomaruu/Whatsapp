@@ -1,12 +1,9 @@
-import React, { useState, useEffect, Component } from 'react';
-import { TouchableOpacity, StatusBar } from 'react-native';
+import React from 'react';
 import { AppLoading } from 'expo';
-import { Container, Header, Tab, Tabs, TabHeading, Icon, Text, Body, Right, Button, Title, ScrollableTab } from 'native-base';
+import { Container, Header, Tab, Tabs, TabHeading, Icon, Text, Body, Right, Button, Title} from 'native-base';
 import * as Font from 'expo-font';
 import { Ionicons } from '@expo/vector-icons';
 import { Dimensions } from 'react-native';
-const width = Dimensions.get('window').width;
-const tabBarWidth = width - 30
 
 import Chat from './tabs/Chat'
 import Status from './tabs/Status'
