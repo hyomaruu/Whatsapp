@@ -9,12 +9,12 @@ export default class status extends Component {
         return (
             <Container>
                 <List>
-                    <ListItem avatar>
+                    <ListItem avatar  style={{marginBottom:5}}>
                         <Left>
                             <Thumbnail source={{ uri: 'https://i.pinimg.com/originals/ac/c0/3c/acc03cb0f87affecd09ccc89d1ddd713.jpg' }} >
                                 
                             </Thumbnail>
-                            <Badge style={{position:'absolute', right:0,bottom:0, backgroundColor:"#51e302",width:20,height:20}}><Icon name="add" style={{position:'absolute', color:'white',height:25,width:25, position:'absolute',top: -4,left:1.2}}></Icon></Badge>
+                            <Badge style={{position:'absolute', right:0,bottom:0, backgroundColor:"#25D366",width:20,height:20}}><Icon name="add" style={{position:'absolute', color:'white',height:25,width:25, position:'absolute',top: -4,left:1.2}}></Icon></Badge>
                         </Left>
                         <Body>
                             <Text>Status Saya</Text>

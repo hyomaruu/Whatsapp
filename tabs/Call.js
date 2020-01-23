@@ -12,15 +12,15 @@ export default class Call extends Component {
                 <List>
                     <ListItem thumbnail>
                         <Left>
-                            <Thumbnail square source={{ uri: 'https://it-club.smkn10jakarta.sch.id/images/foto/2017022209440658acfaf665d10.jpg' }} style={{ borderRadius: 50 }} />
+                            <Thumbnail square source={{ uri: 'https://i.pinimg.com/originals/23/79/62/237962a8d23a2e7162cf86ddae95acaa.jpg' }} style={{ borderRadius: 50 }} />
                         </Left>
                         <Body>
-                            <Text>Arief Setya</Text>
-                            <Text note numberOfLines={1}><Icon name='redo' style={{ color: 'green' }} />&nbsp;&nbsp;Sekarang 20.00</Text>
+                            <Text>babang Tamvan</Text>
+                            <Text note numberOfLines={1}><Icon name='redo' style={{ color: 'green' }} />&nbsp;&nbsp;10 Januari 20.00</Text>
                         </Body>
                         <Right>
                             <Button transparent>
-                                <Icon name='call' style={{ color: "#075354" }} />
+                                <Icon name='call' style={{ color: "#128C7E" }} />
                             </Button>
                         </Right>
                     </ListItem>
@@ -28,15 +28,15 @@ export default class Call extends Component {
                 <List>
                     <ListItem thumbnail>
                         <Left>
-                            <Thumbnail square source={{ uri: 'http://smkn10jakarta.sch.id/wp-content/uploads/2018/10/MUH.-NURROHMAN.jpg' }} style={{ borderRadius: 50 }} />
+                            <Thumbnail square source={{ uri: 'https://i.pinimg.com/originals/1c/72/3d/1c723d7fb43fdb2e10044215eba8140a.jpg' }} style={{ borderRadius: 50 }} />
                         </Left>
                         <Body>
-                            <Text>Aroh Claten</Text>
-                            <Text note numberOfLines={1}><Icon note name='undo' style={{ color: 'red' }} />&nbsp;&nbsp;&nbsp;Kemarin 15.20</Text>
+                            <Text>Dobleh</Text>
+                            <Text note numberOfLines={1}><Icon note name='undo' style={{ color: 'red' }} />&nbsp;&nbsp;&nbsp;Hari ini 15.20</Text>
                         </Body>
                         <Right>
                             <Button transparent>
-                                <Icon name='videocam' style={{ color: "#075354" }} />
+                                <Icon name='videocam' style={{ color: "#128C7E" }} />
                             </Button>
                         </Right>
                     </ListItem>
