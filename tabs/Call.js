@@ -41,6 +41,13 @@ export default class Call extends Component {
                         </Right>
                     </ListItem>
                 </List>
+                <View style={{ flex: 1 }}>
+                    <Fab
+                        style={{ backgroundColor: '#51e302' }}
+                        position="bottomRight">
+                        <Icon name="call" />
+                    </Fab>
+                </View>
             </Container>
         )
     }

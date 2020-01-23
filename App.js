@@ -11,7 +11,6 @@ const tabBarWidth = width - 30
 import Chat from './tabs/Chat'
 import Status from './tabs/Status'
 import Call from './tabs/Call'
-import Headers1 from './header/Headers1'
 import TabCamera from './tabs/TabCamera';
 
 export default class App extends React.Component {
