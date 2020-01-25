@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"Babang Tamvan",
+        "image":"https://i.pinimg.com/originals/23/79/62/237962a8d23a2e7162cf86ddae95acaa.jpg",
+        "isi":"Login Brooooooo, lagi pada ngumpul ini",
+        "jam":"01.59"
+    },
+    {
+        "id":2,
+        "name":"Bebep",
+        "image":"https://cdn.awwni.me/1m6lx.png",
+        "isi":"piring udh di cuci???, kalo udah sekalian di pel",
+        "jam":"01.59"
+    },
+    {
+        "id":3,
+        "name":"Dobleh",
+        "image":"https://i.pinimg.com/originals/1c/72/3d/1c723d7fb43fdb2e10044215eba8140a.jpg",
+        "isi":"Skuy lah nongkrong, lagi gabut gw cuk",
+        "jam":"01.59"
+    },
+    {
+        "id":4,
+        "name":"Budi Setiawan",
+        "image":"https://cdn.idntimes.com/content-images/post/20191120/budi-setiawan2-9ffe3777769a3b4e15bdd28057f8d0f7_600x400.JPG",
+        "isi":"Jutaan orang tidak mengetahui cara BUSET",
+        "jam":"01.59"
+    },
+    {
+        "id":5,
+        "name":"Tukang Cupang",
+        "image":"https://i.pinimg.com/236x/fa/d7/99/fad79911841d02dad174b67b09081633.jpg",
+        "isi":"Kok lu gk beli cupang lagi ???, stoknya banyak nih",
+        "jam":"01.59"
+    }
+
+]
